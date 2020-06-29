@@ -1,0 +1,12 @@
+import tensorflow as tf
+from matplotlib import pylab
+from tensorflow.examples.tutorials.mnist import input_data
+import numpy as np
+
+# Required for Data downaload and preparation
+import struct
+import gzip
+import os
+from six.moves.urllib.request import urlretrieve
+
+                
